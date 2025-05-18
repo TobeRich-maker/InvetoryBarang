@@ -1,0 +1,31 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0.0",
+        "vite": "^5.0.0"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.14.0",
+        "@emotion/styled": "^11.14.0",
+        "@ericblade/quagga2": "github:ericblade/quagga2",
+        "@mui/icons-material": "^7.1.0",
+        "@mui/material": "^7.1.0",
+        "autoprefixer": "^10.4.21",
+        "class-variance-authority": "^0.7.1",
+        "clsx": "^2.1.1",
+        "framer-motion": "^12.10.5",
+        "lucide-react": "^0.509.0",
+        "postcss": "^8.5.3",
+        "quagga": "^0.12.1",
+        "recharts": "^2.15.3",
+        "tailwind-merge": "^3.2.0",
+        "tailwindcss": "^4.1.6",
+        "tailwindcss-animate": "^1.0.7"
+    }
+}
