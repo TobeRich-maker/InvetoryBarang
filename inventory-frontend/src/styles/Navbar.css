@@ -1,0 +1,33 @@
+/* Additional custom styles for the navbar */
+.MuiAppBar-root {
+  transition: all 0.3s ease;
+}
+
+.MuiDrawer-paper {
+  transition: all 0.3s ease !important;
+}
+
+/* Smooth transitions for all interactive elements */
+.MuiButton-root,
+.MuiIconButton-root,
+.MuiListItem-root {
+  transition: all 0.2s ease-in-out !important;
+}
+
+/* Custom scrollbar for the drawer */
+.MuiDrawer-paper::-webkit-scrollbar {
+  width: 6px;
+}
+
+.MuiDrawer-paper::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.MuiDrawer-paper::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+.MuiDrawer-paper::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
