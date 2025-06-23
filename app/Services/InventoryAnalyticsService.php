@@ -393,26 +393,29 @@ class InventoryAnalyticsService
      * @param float $alpha Smoothing factor
      * @return array
      */
-    private function generateForecast(array $data, int $forecastDays, float $alpha = 0.3): array
-    {
-        if (empty($data)) {
-            return array_fill(0, $forecastDays, 0);
-        }
-        
-        // Initialize with first value or average if more appropriate
-        $smoothed = [count($data) > 0 ? array_sum($data) / count($data) : 0];
-        
-        // Apply exponential smoothing to historical data
-        for ($i = 1; $i < count($data); $i++) {
-            $smoothed[] = $alpha * $data[$i] + (1 - $alpha) * $smoothed[$i - 1];
-        }
-        
-        // Generate forecast for future days
-        $lastSmoothedValue = end($smoothed);
-        $forecast = array_fill(0, $forecastDays, $lastSmoothedValue);
-        
-        return $forecast;
+private function generateForecast(array $data, int $forecastDays, float $alpha = 0.3): array
+{
+    // Filter data kosong atau 0
+    $filtered = array_filter($data, fn($v) => $v > 0);
+
+    // Kalau data kosong, return nol
+    if (empty($filtered)) {
+        return array_fill(0, $forecastDays, 0);
     }
+
+    // Inisialisasi dengan rata-rata awal
+    $initial = array_sum($filtered) / count($filtered);
+    $smoothed = [$initial];
+
+    foreach ($filtered as $i => $value) {
+        if ($i === 0) continue;
+        $smoothed[] = $alpha * $value + (1 - $alpha) * end($smoothed);
+    }
+
+    $last = end($smoothed);
+    return array_fill(0, $forecastDays, round($last, 2));
+}
+
     
     /**
      * Prepare forecast dates array
