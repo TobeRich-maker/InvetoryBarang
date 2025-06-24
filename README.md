@@ -6,13 +6,8 @@
 
 <p align="center">Inventory management system built with Laravel, React, MySql.</p>
 
-Tentu, Cimet! Berikut versi yang lebih rapi, profesional, dan mudah dibaca untuk ditaruh di README.md:
-
 ---
 
-### 📦 Cara Menjalankan Project Ini
-
-````markdown
 ## 📦 Cara Menjalankan Project Ini
 
 ### 1. Jalankan Database
@@ -21,17 +16,12 @@ Pastikan **Laragon**, **XAMPP**, atau server MySQL kamu sudah aktif.
 
 ### 2. Jalankan Backend Laravel
 
-Masuk ke folder Laravel dan jalankan perintah berikut:
-
 ```bash
 cd inventory-system/inventory-system
 php artisan serve
 ```
-````
 
 ### 3. Jalankan Frontend React
-
-Buka terminal baru, masuk ke folder frontend dan jalankan:
 
 ```bash
 cd inventory-system/inventory-system/inventory-frontend
@@ -39,85 +29,77 @@ npm install
 npm start
 ```
 
----
-
 ✅ Setelah langkah di atas:
 
--   Laravel akan berjalan di: `http://127.0.0.1:8000`
--   React akan berjalan di: `http://localhost:3000`
+-   Laravel → `http://127.0.0.1:8000`
+-   React → `http://localhost:3000`
 
-```
 ---
-Kalau kamu pakai Vite di frontend, tinggal ganti `npm start` jadi `npm run dev`.
 
-### ✨ Fitur Utama
+## ✨ Fitur Utama
 
-1.  Login Page
+#### 1. Login Page
+
 <p align="center">
-  <img src="assets/public/images/loginpage.png" width="600" alt="Login Page" />
-</p>
-2.  Dashboard Halaman Utama
-    <p align="center">
-  <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/loginpage.png" width="600" alt="Login Page" />
+  <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/images/loginpage.png" width="600" alt="Login Page" />
 </p>
 
-        <p align="center">
-        <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/Dashboard2.png" width="600" alt="Dashboard" />
-        </p>
+#### 2. Dashboard Halaman Utama
 
-3.  Items (tambah, ubah, hapus, Search) Data Barang
 <p align="center">
-<img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/Items1.png" width="600" alt="Dashboard" />
-</p>
-<p align="center">
-<img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/Items2.png" width="600" alt="Dashboard" />
-</p>
-<p align="center">
-<img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/Items2Search.png" width="600" alt="Dashboard" />
-</p>
-4.  Add Items, Tambah Barang Berdasarkan (Kode Item, Nama Item, Category, Stock dan Unit)
-<p align="center">
-<img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/Additems1.png" width="600" alt="Dashboard" />
-</p>
-5.  Goods Out / Sales (Proses Transaksi Barang Keluar)
-<p align="center">
-    <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/GoodsOut1.png" width="600" alt="Dashboard" />
-    </p>
-6.  Analitics Menampilkan Dasboard Analisa Tentang Perkiraan permintaan, Barang yang di Beli kembali, Anomali, Klasifikasi Barang
-<p align="center">
-    <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/AnaliticsDashboard1.png" width="600" alt="Dashboard" />
-</p>
-<p align="center">
-    <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/DeskripsiAnaliticsDashboard.png" width="600" alt="Dashboard" />
-</p>
-<p align="center">
-    <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/AnaliticsDashboarForceastdemand.png" width="600" alt="Dashboard" />
-</p>
-<p align="center">
-    <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/AnaliticsDashboarprocurement.png" width="600" alt="Dashboard" />
-</p>
-<p align="center">
-    <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/AnaliticsDashboarAnomalies.png" width="600" alt="Dashboard" />
-</p>
-    <p align="center">
-    <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/AnaliticsClasificationItems.png" width="600" alt="Dashboard" />
+  <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/images/Dashboard2.png" width="600" alt="Dashboard" />
 </p>
 
-7.  Management Role
+#### 3. Items (tambah, ubah, hapus, Search)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/images/Items1.png" width="600" alt="Items List" />
+  <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/images/Items2.png" width="600" alt="Items Edit" />
+  <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/images/Items2Search.png" width="600" alt="Items Search" />
 </p>
-    <p align="center">
-    <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/Rolemanagement1.png" width="600" alt="Dashboard" />
+
+#### 4. Add Items
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/images/Additems1.png" width="600" alt="Add Item" />
 </p>
-8.  Manajemen Akses
+
+#### 5. Goods Out / Sales
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/images/GoodsOut1.png" width="600" alt="Goods Out" />
 </p>
-        <p align="center">
-        <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/Permissionmanagement1.png" width="600" alt="Dashboard" />
-    </p>
-9.  Menu sistem Administration
+
+#### 6. Analytics Dashboard
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/images/AnaliticsDashboard1.png" width="600" alt="Analytics Overview" />
+  <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/images/DeskripsiAnaliticsDashboard.png" width="600" alt="Analytics Deskripsi" />
+  <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/images/AnaliticsDashboarForceastdemand.png" width="600" alt="Forecast Demand" />
+  <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/images/AnaliticsDashboarprocurement.png" width="600" alt="Procurement" />
+  <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/images/AnaliticsDashboarAnomalies.png" width="600" alt="Anomalies" />
+  <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/images/AnaliticsClasificationItems.png" width="600" alt="Classification" />
 </p>
-        <p align="center">
-        <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/sistemadministration1.png" width="600" alt="Dashboard" />
-    </p>
+
+#### 7. Management Role
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/images/Rolemanagement1.png" width="600" alt="Role Management" />
+</p>
+
+#### 8. Manajemen Akses
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/images/Permissionmanagement1.png" width="600" alt="Permission Management" />
+</p>
+
+#### 9. Menu Sistem Administration
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/images/sistemadministration1.png" width="600" alt="System Admin" />
+</p>
+
+---
 
 ## 🚀 Tech Stack
 
@@ -131,6 +113,5 @@ Kalau kamu pakai Vite di frontend, tinggal ganti `npm start` jadi `npm run dev`.
 ## 🗃️ Database Schema (ERD)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/invetorydbimage.png" width="600" alt="ERD Inventory Barang" />
+  <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/images/invetorydbimage.png" width="600" alt="ERD Inventory Barang" />
 </p>
-```
