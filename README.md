@@ -54,12 +54,12 @@ Kalau kamu pakai Vite di frontend, tinggal ganti `npm start` jadi `npm run dev`.
 
 1.  Login Page
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/loginpage.png" width="600" alt="Login Page" />
+  <img src="assets/public/images/loginpage.png" width="600" alt="Login Page" />
 </p>
 2.  Dashboard Halaman Utama
     <p align="center">
-    <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/Dashboard1.png" width="600" alt="Dashboard" />
-    </p>
+  <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/loginpage.png" width="600" alt="Login Page" />
+</p>
 
         <p align="center">
         <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/Dashboard2.png" width="600" alt="Dashboard" />
