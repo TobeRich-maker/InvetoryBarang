@@ -1,7 +1,9 @@
 ## 📦 About the Project
 
 <h1 align="center">Inventory Barang</h1>
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TobeRich-maker/InvetoryBarang/main/assets/images/landingimage.png" width="600" alt="Add Item" />
+</p>
 **Inventory Barang** adalah aplikasi manajemen inventaris berbasis web yang dibangun menggunakan Laravel. Aplikasi ini membantu mengelola data barang masuk, keluar, dan stok dengan antarmuka, menampilkan Analisa Perkiraan Permintaan, Pengadaan, Anomalies dan Clasifikasi Item
 
 <p align="center">Inventory management system built with Laravel, React, MySql.</p>
